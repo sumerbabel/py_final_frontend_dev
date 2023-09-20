@@ -2,7 +2,7 @@
 
 function Nav({children}){
 
-    return(<nav>{children}</nav>)
+    return(<nav className="ui-nav">{children}</nav>)
 }
 
 export default Nav
